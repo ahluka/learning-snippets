@@ -21,18 +21,6 @@ const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
       ))}
     </div>
   );
-  // return (
-  //   <div className="todos">
-  //     {todos.map((todo) => {
-  //       <SingleTodo
-  //         key={todo.id}
-  //         todo={todo}
-  //         todos={todos}
-  //         setTodos={setTodos}
-  //       />;
-  //     })}
-  //   </div>
-  // );
 };
 
 export default TodoList;
